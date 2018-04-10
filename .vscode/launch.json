@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Weather Debug",
+            "program": "${workspaceFolder}/start",
+            "env": {
+                "NODE_ENV": "development",
+                "DBNAME": "jdash-local",
+                "PORT": "3000",
+                "DBADDRESS": "localhost",
+                // "DBUSER": "jdashappuser",
+                // "DBPWD": "cGgyMDE4Li4=",
+                "STRIPEAPIKEY": "sk_test_3oTF475DSefOKkJI3oSGLVKQ",
+                "STRIPEPUBLICKEY": "pk_test_egmWqp1hICp3WboQDImj3AYD",
+                "EMAILHOST": "mail.jdash.io",
+                "EMAILPORT": "8889",
+                "EMAILUSERNAME": "hello@jdash.io",
+                "EMAILPASS": "jdash2017."
+            }
+        }
+    ]
+}
